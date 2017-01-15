@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Plan - My Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Plan";
+    var mkdocs_page_input_path = "Finplan.md";
+    var mkdocs_page_url = "/Finplan/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> My Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../consul/">Consul</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../maven/">Maven</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Plan</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#16">16年总结</a></li>
+                
+                    <li><a class="toctree-l4" href="#_1">微服务</a></li>
+                
+                    <li><a class="toctree-l4" href="#_2">资金中台</a></li>
+                
+                    <li><a class="toctree-l4" href="#_3">混合云</a></li>
+                
+                    <li><a class="toctree-l4" href="#_4">短信平台</a></li>
+                
+                    <li><a class="toctree-l4" href="#devops">DEVOPS</a></li>
+                
+                    <li><a class="toctree-l4" href="#_5">环境资源</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#17">17年规划</a></li>
+                
+                    <li><a class="toctree-l4" href="#_6">微服务</a></li>
+                
+                    <li><a class="toctree-l4" href="#_7">混合云</a></li>
+                
+                    <li><a class="toctree-l4" href="#devops_1">DEVOPS</a></li>
+                
+                    <li><a class="toctree-l4" href="#_8">资金中台</a></li>
+                
+                    <li><a class="toctree-l4" href="#_9">招行备付金存管项目</a></li>
+                
+                    <li><a class="toctree-l4" href="#_10">短信平台</a></li>
+                
+                    <li><a class="toctree-l4" href="#_11">信息脱敏</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">My Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Plan</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="16">16年总结</h1>
+<hr />
+<h3 id="_1">微服务</h3>
+<ol>
+<li>进展<ul>
+<li>开发环境、测试环境、生产环境微服务投入使用。</li>
+<li>组件使用情况：consul、feign、config、hystrix、zipkin</li>
+</ul>
+</li>
+<li>存在的问题<ul>
+<li>服务调用全链路监控暂时未正式投入使用，需要比较各产品的选型。</li>
+<li>hyxtrix在各系统的超时时间的设置需要合理优化</li>
+<li>网关、会员产线未正式使用该平台</li>
+<li>服务使用规范的遵守需要形成常规。</li>
+<li>consul控制台过于功能缺失，需要重构。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="_2">资金中台</h3>
+<ol>
+<li>进展<ul>
+<li>收银台后台、支付平台开发完成，支持3c和微信支付上线。</li>
+</ul>
+</li>
+<li>存在的问题<ul>
+<li>支付平台整体模型和设计需要优化</li>
+<li>收银台前后台需要进一步整合。</li>
+<li>业务系统之间的交易补偿措施需要合理的规划。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="_3">混合云</h3>
+<ol>
+<li>ons<ul>
+<li>进展<ul>
+<li>java版本已经投入使用</li>
+<li>.net版本目前尚未投入使用</li>
+</ul>
+</li>
+<li>存在问题<ul>
+<li>线上未有业务正式使用，无法验证其性能和服务</li>
+<li>.net版本的稳定性需要再进行测试。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>oss<ul>
+<li>进展<ul>
+<li>服务已经开通，poc完成</li>
+</ul>
+</li>
+<li>存在问题<ul>
+<li>未上业务</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>pts<ul>
+<li>进展<ul>
+<li>服务开通，poc完成</li>
+</ul>
+</li>
+<li>存在问题<ul>
+<li>未投入日常使用</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ecs<ul>
+<li>进展<ul>
+<li>目前在使用机器12台，包括测试环境，拍百科和袋鼠云。</li>
+</ul>
+</li>
+<li>存在问题<ul>
+<li>安全问题，需要和运维沟通账户权限问题。和后续ecs服务器运维流程。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>专线<ul>
+<li>进展<ul>
+<li>vpn完成，100m。稳定使用</li>
+<li>专线建设完成，采用信天专线。</li>
+</ul>
+</li>
+<li>存在问题<ul>
+<li>专线目前是100m，可能无法支撑大规模业务的上线。</li>
+<li>由于机房核心交换机不稳定，暂时无法接入正常业务。</li>
+<li>专线的稳定性需要后续进行测试。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="_4">短信平台</h3>
+<ol>
+<li>现状<ul>
+<li>ac短信平台功能实现。</li>
+<li>接入阿里云短信通道。</li>
+<li>目前在测试环境进行测试</li>
+</ul>
+</li>
+<li>存在问题<ul>
+<li>需要进一步压测</li>
+<li>需要接入网易云信等其他稳定通道</li>
+<li>需要接入运维监控短信</li>
+<li>需要分流目前ac短信平台等验证码类业务</li>
+<li>需要支持催收短信业务</li>
+<li>平台业务迁移需要推进。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="devops">DEVOPS</h3>
+<ol>
+<li>现状<ul>
+<li>基于gitlab的cicd在开发和测试正常使用</li>
+<li>收银台、支付平台、账务、会计接入袋鼠云和elk</li>
+<li>基于mesos和marathon的自动化部署平台的poc。</li>
+<li>gitlab规约的积累</li>
+</ul>
+</li>
+<li>存在问题<ul>
+<li>gitlab规约遵守未形成常规。</li>
+<li>持续集成和持续发布的流程框架目前还处在poc阶段，没有形成最终的上线规划。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="_5">环境资源</h3>
+<ol>
+<li>现状<ul>
+<li>开发、测试和生产环境机器资源申请和规划完成，目前正常使用。</li>
+</ul>
+</li>
+<li>存在问题<ul>
+<li>微服务相关的，推广力度不够，资金中台在使用，但是网关和会员等其他系统未投入使用。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h1 id="17">17年规划</h1>
+<hr />
+<h3 id="_6">微服务</h3>
+<ul>
+<li>目标<ul>
+<li>consul改造完成</li>
+<li>使用规范的推广和实施。</li>
+<li>服务调用监控的落实。</li>
+<li>资金、会员服务治理完成。</li>
+<li>公司其他java系统的推广。</li>
+<li>组件的源码熟悉。</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="_7">混合云</h3>
+<ul>
+<li>目标<ul>
+<li>专线、VPN线上投入使用，且稳定运行。</li>
+<li>资金中台上云。</li>
+<li>短信平台上云。</li>
+<li>其他云资源的使用。</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="devops_1">DEVOPS</h3>
+<ul>
+<li>目标<ul>
+<li>技术选型完成。</li>
+<li>投入日常运维和使用。</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="_8">资金中台</h3>
+<ul>
+<li>目标<ul>
+<li>业务补偿完善</li>
+<li>系统模型优化</li>
+<li>收银台前台的完善</li>
+<li>清洁算平台的搭建</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="_9">招行备付金存管项目</h3>
+<ul>
+<li>目标<ul>
+<li>java平台上线。</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="_10">短信平台</h3>
+<ul>
+<li>目标<ul>
+<li>ac短息平台切换完成</li>
+<li>催收平台上线</li>
+<li>接入其他稳定的短信通道。</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="_11">信息脱敏</h3>
+<ul>
+<li>目标<ul>
+<li>支付链路支持索引卡号。</li>
+<li>ons 消息加密</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../maven/" class="btn btn-neutral" title="Maven"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../maven/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>

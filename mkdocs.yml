@@ -1,0 +1,7 @@
+site_name: My Docs
+pages:
+  - Home: index.md
+  - Consul: consul.md
+  - Maven: maven.md
+  - Plan: Finplan.md
+theme: readthedocs
