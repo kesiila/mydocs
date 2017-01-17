@@ -21,3 +21,19 @@
 * LAN Gossip - Refers to the LAN gossip pool which contains nodes that are all located on the same local area network or datacenter.
 * WAN Gossip - Refers to the WAN gossip pool which contains only servers. These servers are primarily located in different datacenters and typically communicate over the internet or wide area network.
 * RPC - Remote Procedure Call. This is a request / response mechanism allowing a client to make a request of a server.
+
+## web-ui
+* 功能：
+    - 登陆功能
+    - 权限配置：管理员和普通用户权限
+    - server和client查看功能
+    - 服务列表查看功能
+    - acl设置功能
+    - 服务下线功能
+    - 其他查询功能(参照consul控制台现有查询功能)
+* api接口汇总
+    - 参照consul.io进行api整理
+
+* 功能详细
+
+
