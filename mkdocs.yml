@@ -4,4 +4,7 @@ pages:
   - Consul: consul.md
   - Maven: maven.md
   - Plan: Finplan.md
+  - Linux: Linux.md
+  - cloud: cloud.md
+  - swagger: swagger.md
 theme: readthedocs
